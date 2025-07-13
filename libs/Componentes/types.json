@@ -1,0 +1,31 @@
+{
+  "Doodle_type": {
+    "plane": {
+      "source":"<image path>",
+      "direction": ""
+    },
+    "train": {
+      "source":"<image path>",
+      "direction": ""
+    },
+    "ship": {
+      "source":"<image path>",
+      "direction": ""
+    }
+  },
+  "picture_type": {
+    "properties": {
+      "dimensions": {
+        "width":"",
+        "height":""
+      }
+    }
+  },
+  "text_type": {
+    "font-size": "",
+    "font-style": "",
+    "font-colour": "",
+    "text-orientation": ""
+
+  }
+}

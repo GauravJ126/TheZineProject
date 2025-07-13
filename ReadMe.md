@@ -1,4 +1,4 @@
-# The Zean Project
+# The Zine Project
 ***
 ## Why??
 In the era of digital being and the advent of AI, 

@@ -5,12 +5,13 @@ class Computer:
         self._file = None
 
     def compute_layout(self,inputs):
-            """This should compute the layout of the Zine based on the Json Input"""
+        """This should compute the layout of the Zine based on the Json Input"""
         pass
 
     def compute_component_position(self,inputs):
         """This should compute the placements of the component of the Zine based on the Json Input and the layout"""
-    pass
+        pass
+
     def read_json(self, input = None):
         """Input wil be the file in the Inputs folder, input will be in JSON"""
         # write code to read a json file

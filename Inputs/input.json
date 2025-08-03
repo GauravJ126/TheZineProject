@@ -1,86 +1,33 @@
 {
-  "Page_Properties": {
-  "Height":"",
-  "Width": ""
-  },
-  "Start":
-  {
-    "Location": "Some-StartPoint",
-    "Transport": "PLane <insert timage of plane>",
-    "Pictures": {
-      "image-1": {
-        "Source":"<insert Image Source>",
-        "Description": "This field could be blank"
-      },
-      "image-2": {
-        "Source":"<insert Image Source>",
-        "Description":""
-      }
-    },
-    "Links": {"This could be for snaps or pics":"using QR"}
-  },
+  "Page_Type": "A4" ,
+  "Start": {
+    "Pic-1": {},
+    "Pic-2": {},
+    "Pic-3": {}
+          },
   "Stop-1": {
-    "Location": "Stop-1",
-    "Transport": "PLane <insert timage of plane>",
-    "Pictures": {
-      "image-1": {
-        "Source":"<insert Image Source>",
-        "Description": "This field could be blank"
-      },
-      "image-2": {
-        "Source":"<insert Image Source>",
-        "Description":""
-      }
-    },
-    "Links": {"This could be for snaps or pics":"using QR"}
-  },
+    "Pic-1": {},
+    "Pic-2": {},
+    "Pic-3": {}
+          },
   "Stop-2": {
-    "Location": "Stop-2",
-    "Transport": "PLane <insert timage of plane>",
-    "Pictures": {
-      "image-1": {
-        "Source":"<insert Image Source>",
-        "Description": "This field could be blank"
-      },
-      "image-2": {
-        "Source":"<insert Image Source>",
-        "Description":""
-      }
-    },
-    "Links": {"This could be for snaps or pics":"using QR"}
-  },
+    "Pic-1": {},
+    "Pic-2": {},
+    "Pic-3": {}
+          },
   "Stop-3": {
-    "Location": "Stop-3",
-    "Transport": "PLane <insert timage of plane>",
-    "Pictures": {
-      "image-1": {
-        "Source":"<insert Image Source>",
-        "Description": "This field could be blank"
-      },
-      "image-2": {
-        "Source":"<insert Image Source>",
-        "Description":""
-      }
-    },
-    "Links": {"This could be for snaps or pics":"using QR"}
-  },
+    "Pic-1": {},
+    "Pic-2": {},
+    "Pic-3": {}
+          },
   "Stop-4": {
-    "Location": "Stop-4",
-    "Transport": "PLane <insert timage of plane>",
-    "Pictures": {
-      "image-1": {
-        "Source":"<insert Image Source>",
-        "Description": "This field could be blank"
-      },
-      "image-2": {
-        "Source":"<insert Image Source>",
-        "Description":""
-      }
-    },
-    "Links": {"This could be for snaps or pics":"using QR"}
-  },
+    "Pic-1": {},
+    "Pic-2": {},
+    "Pic-3": {}
+          },
   "End": {
-    "Location": "Some-EndPoint",
-    "Transport": "PLane <insert timage of plane>"
-  }
+    "Pic-1": {},
+    "Pic-2": {},
+    "Pic-3": {}
+          }
 }

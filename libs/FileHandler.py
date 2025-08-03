@@ -1,23 +1,24 @@
+import os
 import json
-# Have to find a SVG library for handling SVG elements
+import svgwrite
+
 class Computer:
     def __init__(self):
         self._file = None
+        self._templates = self.read_json("libs/templates/types.json")
 
-    def compute_layout(self,inputs):
-        """This should compute the layout of the Zine based on the Json Input"""
-        pass
-
-    def compute_component_position(self,inputs):
-        """This should compute the placements of the component of the Zine based on the Json Input and the layout"""
-        pass
-
-    def read_json(self, input = None):
+    def read_json(self, file_path = None):
         """Input wil be the file in the Inputs folder, input will be in JSON"""
-        # write code to read a json file
-        self.compute_layout(input)
-        self.compute_component_position(input)
-        pass
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                data = json.load(file)
+                return data
+        except FileNotFoundError:
+            print(f"[ERROR] File not found: {file_path}")
+        except json.JSONDecodeError as e:
+            print(f"[ERROR] Failed to decode JSON: {e}")
+        except Exception as e:
+            print(f"[ERROR] An unexpected error occurred: {e}")
 
     def write_svg(self):
         """Basically to finally generate the SVG to be able to print"""
@@ -31,3 +32,21 @@ class Computer:
                     (Json in the componentes folder)"""
         pass
 
+    def create_book(self,structure):
+        page_type = structure["Page_Type"]
+
+        for element,element_properties in structure.items():
+            if element == "Page_Type":
+                width, height = self._templates.get(page_type)["width"], self._templates.get(page_type)["height"]
+            if element == "Start":
+                pass
+                        
+            if element == "End":
+                pass
+
+        """Call all the needed function within the Class to make the book"""
+
+    def export_output_as_pdf(self, output,output_location):
+        """ This will take a string and write it to a file
+        and export the file as a pdf to be printable"""
+        pass
